@@ -1,0 +1,36 @@
+.userContent {
+  padding: 20px;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.usersCard {
+  padding: 10px;
+  width: 300px;
+  display: block;
+  cursor: pointer;
+  border: 2px solid rgb(150, 150, 200);
+  background-color: rgb(241, 241, 252);
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.usersCard:hover {
+  transform: scale(1.1);
+}
+/* .usersCard p {
+  text-decoration: none;
+} */
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.link {
+  width: 200px;
+  text-decoration: none;
+}

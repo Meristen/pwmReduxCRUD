@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: black;
+}
+.navImage img {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  background-color: #fff;
+  z-index: 2;
+}
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: 0.5s;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+.navMenu a {
+  color: black !important;
+}
+.navMenu.active {
+  display: flex;
+  transform: translate(0);
+  opacity: 1;
+  visibility: visible;
+}
+.formStyles {
+  color: rgb(150, 150, 200);
+  background-color: rgb(241, 241, 252);
+  width: 300px;
+  margin: 10px;
+  border: 2px solid rgb(150, 150, 200);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
